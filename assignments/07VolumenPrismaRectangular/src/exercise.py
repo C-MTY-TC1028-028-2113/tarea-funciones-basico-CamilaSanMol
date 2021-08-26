@@ -1,5 +1,9 @@
 # Escribe aquí tus funciones...
+def arectangulo(a,b):
+    return a*b
 
+def volumen_prisma(x,y,z):
+    return arectangulo(x,y)*z
 def main():
     #escribe tu código abajo de esta línea
     b = float(input("Dame la base: "))
